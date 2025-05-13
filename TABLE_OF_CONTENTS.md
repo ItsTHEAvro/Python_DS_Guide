@@ -1,81 +1,166 @@
-# Python Data Science Learning Path: Table of Contents
+# Data Science Learning Path: Complete Table of Contents
 
-## Learning Path Overview
+## 1. Python Fundamentals
 
-This guide provides a structured learning path for mastering Python data science, from fundamentals to advanced machine learning techniques. Each section contains theory, code examples, and practical exercises to reinforce your learning.
+- [README](01_Python_Fundamentals/README.md)
+- **Notebooks**
+  - [Python Basics](01_Python_Fundamentals/notebooks/01_Python_Basics.ipynb)
+    - Variables and Data Types
+    - Basic Operations
+    - Control Flow (if/else)
+    - Loops (for/while)
+  - [Data Structures](01_Python_Fundamentals/notebooks/02_Data_Structures.ipynb)
+    - Lists
+    - Tuples
+    - Dictionaries
+    - Sets
+- **Programming Topics**
+  - Functions and Methods
+  - Modules and Packages
+  - Error Handling
+  - File I/O Operations
+  - List Comprehensions
+  - Lambda Functions
+  - Object-Oriented Programming Basics
 
-## Core Sections
+## 2. Data Manipulation
 
-### 1. [Python Fundamentals](01_Python_Fundamentals/README.md)
+- [README](02_Data_Manipulation/README.md)
+- **Pandas Fundamentals**
+  - Series and DataFrame Objects
+  - Data Indexing and Selection
+  - Operations on DataFrame
+  - Working with Missing Data
+- **Data Transformation**
+  - Filtering and Sorting
+  - Grouping and Aggregation
+  - Pivoting and Reshaping
+  - Apply Functions
+- **Advanced Topics**
+  - Merging, Joining, and Concatenating
+  - Time Series Analysis
+  - Text Data Processing
+  - Working with Different File Formats
 
-- Python basics and syntax
-- Data structures (lists, dictionaries)
-- Functions and packages
-- NumPy for numerical computing
-- Advanced function concepts
-- Error handling and debugging
+## 3. Visualization
 
-### 2. [Data Manipulation](02_Data_Manipulation/README.md)
+- [README](03_Visualization/README.md)
+- **Matplotlib**
+  - Basic Plots (Line, Bar, Scatter)
+  - Customizing Plots
+  - Subplots and Multiple Figures
+  - Saving Visualizations
+- **Seaborn**
+  - Statistical Plots
+  - Categorical Plots
+  - Distribution Plots
+  - Heatmaps and Correlation
+- **Advanced Visualization**
+  - Interactive Plots with Plotly
+  - Geographic Visualizations
+  - Dashboard Creation
+  - Data Storytelling
 
-- Pandas DataFrames and Series
-- Data transformation techniques
-- Data aggregation and group operations
-- Slicing and indexing strategies
-- Joining and merging datasets
-- Data cleaning and preprocessing
-- Working with temporal data
+## 4. Statistics
 
-### 3. [Visualization](03_Visualization/README.md)
+- [README](04_Statistics/README.md)
+- **Descriptive Statistics**
+  - Measures of Central Tendency
+  - Measures of Dispersion
+  - Quantiles and Percentiles
+  - Exploratory Data Analysis
+- **Probability**
+  - Basic Probability Concepts
+  - Random Variables
+  - Common Distributions
+  - Central Limit Theorem
+- **Inferential Statistics**
+  - Hypothesis Testing
+  - Confidence Intervals
+  - P-values and Statistical Significance
+  - A/B Testing
+- **Advanced Topics**
+  - Experimental Design
+  - Analysis of Variance (ANOVA)
+  - Non-parametric Tests
+  - Bayesian Statistics Basics
 
-- Matplotlib fundamentals
-- Statistical visualizations with Seaborn
-- Effective data communication
-- Chart customization and styling
-- Multi-dimensional data visualization
-- Creating publication-quality graphics
+## 5. Machine Learning
 
-### 4. [Statistics](04_Statistics/README.md)
+- [README](05_Machine_Learning/README.md)
+- **Foundations**
+  - ML Workflow Overview
+  - Train-Test Split
+  - Cross-Validation
+  - Feature Scaling and Selection
+- **Supervised Learning**
+  - Linear Regression
+  - Logistic Regression
+  - Decision Trees
+  - Support Vector Machines
+  - Ensemble Methods (Random Forests, Gradient Boosting)
+- **Unsupervised Learning**
+  - K-means Clustering
+  - Hierarchical Clustering
+  - Principal Component Analysis (PCA)
+  - Dimensionality Reduction
+- **Model Evaluation**
+  - Metrics for Regression
+  - Metrics for Classification
+  - Overfitting and Underfitting
+  - Hyperparameter Tuning
 
-- Descriptive statistics
-- Probability concepts and distributions
-- Statistical hypothesis testing
-- Sampling methods and considerations
-- Experimental design principles
-- Correlation analysis
-- Statistical modeling fundamentals
+## 6. Projects
 
-### 5. [Machine Learning](05_Machine_Learning/README.md)
+- [README](06_Projects/README.md)
 
-- Supervised learning techniques
-- Regression models
-- Classification algorithms
-- Model evaluation and validation
-- Feature engineering and selection
-- Unsupervised learning approaches
-- Tree-based modeling algorithms
-- Model optimization and tuning
+### Beginner Projects
 
-## Applied Projects
+- [Investigating Netflix Movies](06_Projects/Investigating%20Netflix%20Movies/README.md)
 
-### 6. [Projects](06_Projects/README.md)
+  - Data exploration with pandas
+  - Basic visualization
+  - Drawing conclusions from data
 
-- [Investigating Netflix Movies](06_Projects/Investigating%20Netflix%20Movies/README.md): Analyze movie duration trends
-- [NYC Public School Analysis](06_Projects/NYC%20Public%20School%20Analysis/README.md): Statistical analysis of school performance
-- [Nobel Prize Winners Visualization](06_Projects/Nobel%20Prize%20Winners%20Visualization/README.md): Historical patterns of Nobel laureates
-- [Los Angeles Crime Analysis](06_Projects/Los%20Angeles%20Crime%20Analysis/README.md): Crime patterns and prediction
-- [Agriculture Predictive Modeling](06_Projects/Agriculture%20Predictive%20Modeling/README.md): Crop prediction using supervised learning
-- [Antarctic Penguin Species Clustering](06_Projects/Antarctic%20Penguin%20Species%20Clustering/README.md): K-means clustering application
-- [Movie Rental Duration Prediction](06_Projects/Movie%20Rental%20Duration%20Prediction/README.md): Regression modeling for business
+- [NYC Public School Analysis](06_Projects/NYC%20Public%20School%20Analysis/README.md)
+  - Working with educational data
+  - Statistical analysis
+  - Insights into academic performance
 
-## Learning Progress Tracking
+### Intermediate Projects
 
-- Beginner: Sections 1-2 and basic visualization
-- Intermediate: Full sections 1-3, basic statistics, and first projects
-- Advanced: All sections with a focus on applied projects and machine learning
+- [Nobel Prize Winners Visualization](06_Projects/Nobel%20Prize%20Winners%20Visualization/README.md)
 
-## Recommended Learning Order
+  - Historical data analysis
+  - Advanced visualization techniques
+  - Finding patterns and insights
 
-1. Complete each section sequentially
-2. Try the mini-practice tasks within each section
-3. Apply knowledge to corresponding projects
-4. Revisit challenging concepts as needed
+- [Los Angeles Crime Analysis](06_Projects/Los%20Angeles%20Crime%20Analysis/README.md)
+  - Geospatial data processing
+  - Time-series analysis
+  - Crime pattern identification
+
+### Advanced Projects
+
+- [Agriculture Predictive Modeling](06_Projects/Agriculture%20Predictive%20Modeling/README.md)
+
+  - Feature engineering
+  - Advanced regression techniques
+  - Model evaluation and selection
+
+- [Antarctic Penguin Species Clustering](06_Projects/Antarctic%20Penguin%20Species%20Clustering/README.md)
+
+  - Unsupervised learning techniques
+  - Cluster analysis
+  - Working with biological data
+
+- [Movie Rental Duration Prediction](06_Projects/Movie%20Rental%20Duration%20Prediction/README.md)
+  - End-to-end ML project
+  - Advanced feature engineering
+  - Model deployment basics
+
+## Additional Resources
+
+- [Learning Tracker](LEARNING_TRACKER.md)
+- [Concept Applications](CONCEPT_APPLICATIONS.md)
+- [Notebook Template](notebook_template.ipynb)
